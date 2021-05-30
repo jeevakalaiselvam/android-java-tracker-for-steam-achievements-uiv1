@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/color_background"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Assign as"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/story"
+            android:layout_width="match_parent"
+            android:text="Story"
+            android:textColor="@drawable/click_selector"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/easy"
+            android:text="Easy"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+        <TextView
+            android:id="@+id/hard"
+            android:text="Hard"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/miss"
+            android:text="Miss"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/grind"
+            android:layout_width="match_parent"
+            android:text="Grind"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/online"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Online"
+            android:textColor="@drawable/click_selector"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="Assassin Creed"
+            android:textColor="@color/green"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@drawable/click_selector"
+            android:layout_marginBottom="8dp"
+            android:text=""
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

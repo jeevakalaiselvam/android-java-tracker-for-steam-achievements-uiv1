@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="No Achievements added in Planner.."
+        android:textColor="#Fefefe"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/addPlannerMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:minHeight="0dp"
+        android:padding="4dp"
+        android:text="ADD"
+        android:background="@color/green"
+        android:textColor="@color/colorBGDark" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/planner_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:divider="#212121"
+        android:dividerHeight="1px"></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

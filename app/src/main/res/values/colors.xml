@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorNotiDark">#222222</color>
+
+    <!-- Theme 1 ok -->
+
+    <color name="colorBG">#333341</color>
+    <color name="colorCard">#393947</color>
+    <color name="colorBGDark">#2D2D39</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextLight">#919191</color>
+    <color name="colorAccent">#9bc32e</color>
+
+    <color name="blue">#ffffff</color>
+    <color name="bggrad1">#14C7E0</color>
+    <color name="bggrad2">#f605fe</color>
+
+    <color name="champion">#4bc3b5</color>
+    <color name="platinum">#4bc3b5</color>
+    <color name="gold">#ffd700</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="bronze">#cc8a54</color>
+    <color name="copper">#8f4e2f</color>
+    <color name="green">#9bc32e</color>
+
+
+
+</resources>

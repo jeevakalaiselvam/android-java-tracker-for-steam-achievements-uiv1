@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="4dp"
+    android:background="@color/colorBG"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:src="@drawable/ic_close_cross"
+                android:tint="@color/colorText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/game"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:text="Assassin Creed"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Assassin Creed"
+                    android:textColor="@color/green"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text=""
+                    android:textSize="14sp" />
+
+
+
+                <TextView
+                    android:id="@+id/unlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text=""
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="top"
+                android:hint="Enter details here.."
+                android:minHeight="100dp"
+                android:padding="8dp"
+                android:text=""
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTextLight"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="STORY"
+                    android:id="@+id/story"
+                    android:gravity="center"
+                    android:textColor="@color/colorBGDark"
+                    android:textSize="10sp"
+                    android:background="@drawable/ic_label"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:text="EASY"
+                    android:gravity="center"
+                    android:id="@+id/easy"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorBGDark"
+                    android:background="@drawable/ic_label"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:text="HARD"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:id="@+id/hard"
+                    android:textColor="@color/colorBGDark"
+                    android:background="@drawable/ic_label"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:text="MISS"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:id="@+id/miss"
+                    android:textColor="@color/colorBGDark"
+                    android:background="@drawable/ic_label"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:text="GRIND"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:id="@+id/grind"
+                    android:textColor="@color/colorBGDark"
+                    android:background="@drawable/ic_label"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:minHeight="0dp"
+                android:padding="4dp"
+                android:text="SAVE"
+                android:background="@color/green"
+                android:textColor="@color/colorBGDark" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

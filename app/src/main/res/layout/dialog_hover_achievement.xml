@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/color_background"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/none"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_label"
+                android:gravity="center"
+                android:text="STORY"
+                android:textColor="@color/colorText"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/story"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_label"
+                android:gravity="center"
+                android:text="STORY"
+                android:textColor="@color/colorText"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/easy"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_label"
+                android:gravity="center"
+                android:text="EASY"
+                android:textColor="@color/colorText"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/hard"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_label"
+                android:gravity="center"
+                android:text="HARD"
+                android:textColor="@color/colorText"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/miss"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_label"
+                android:gravity="center"
+                android:text="MISS"
+                android:textColor="@color/colorText"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/grind"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_label"
+                android:gravity="center"
+                android:text="GRIND"
+                android:textColor="@color/colorText"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/multiplayer"
+                android:layout_width="63dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_label"
+                android:gravity="center"
+                android:text="ONLINE"
+                android:textColor="@color/colorText"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="Assassin Creed"
+            android:textColor="@color/green"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text=""
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="@color/colorTextLight"
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tracker For Steam Achievements</string>
+    <string name="app_name1">Tracker</string>
+    <string name="key_preferences">com.gamerguide.android.trackerforsteamachivements</string>
+    <string name="hint_0">Open your Steam Client or App, Click and goto your Profile page in Steam Client and click Edit Profile.</string>
+    <string name="hint_1">Make sure to not set your Steam profile to private. If your Steam Profile is set to Private, Change it to Public.</string>
+    <string name="hint_2">Make sure to not set your Game Details to private. If your Game Details is set to Private, Change it to Public.</string>
+    <string name="hint_3">Make sure to not have the checkbox checked in below image. The checkbox should be disabled, The app cannot fetch game info otherwise. </string>
+    <string name="hint_4">Find your Steam profile URL id as shown in below image. This username is needed for configuration. Make sure to write it down or remember. </string>
+</resources>

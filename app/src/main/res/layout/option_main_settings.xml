@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorBG">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Steam Profile URL ID"
+                android:textSize="16sp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:text="\?"
+                android:id="@+id/help"
+                android:textColor="@color/colorBGDark"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@drawable/color_help"
+                android:textStyle="bold"
+                android:layout_height="20dp" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/player_key"
+            android:gravity="left"
+            android:hint="Enter Steam username"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:background="@color/colorBGDark"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextLight"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="SAVE"
+            android:id="@+id/save"
+            android:layout_marginTop="16dp"
+            android:minHeight="0dp"
+            android:padding="4dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorBGDark"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="Facing any Issues?"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="Mail us at kalaiselvamg1995@gmail.com"
+            android:textColor="#9191a1"
+            android:textSize="13sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="REPORT"
+            android:id="@+id/report"
+            android:layout_marginTop="8dp"
+            android:minHeight="0dp"
+            android:padding="4dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorBGDark"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

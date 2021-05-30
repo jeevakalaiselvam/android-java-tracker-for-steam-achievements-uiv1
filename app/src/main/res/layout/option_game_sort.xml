@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/color_background"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Sort Achievement"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:text="Name A - Z"
+            android:textColor="@drawable/click_selector"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/percentage1"
+            android:text="Easy Percentage"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+        <TextView
+            android:id="@+id/hidden"
+            android:text="Hidden Achievement"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/unlock"
+            android:text="Recently Unlocked"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Change View"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/small"
+            android:layout_width="match_parent"
+            android:text="Icon View"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/big"
+            android:layout_width="match_parent"
+            android:text="Minimal View"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/detailed"
+            android:layout_width="match_parent"
+            android:text="Detailed View"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:text="STEP PLANNER"
+        android:id="@+id/plannerB"
+        android:minHeight="0dp"
+        android:padding="8dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorBGDark"
+        android:layout_height="0dp"/>
+
+</LinearLayout>

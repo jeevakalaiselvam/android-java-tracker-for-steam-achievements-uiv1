@@ -1,0 +1,20 @@
+<resources>
+
+
+    <style name="ThemeOverlay.MyTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/colorBG</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+
+    <style name="AppTheme1" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorBG</item>
+        <item name="colorPrimaryDark">@color/colorBGDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBGDark</item>
+        <item name="android:textColor">@color/colorText</item>
+
+    </style>
+
+</resources>

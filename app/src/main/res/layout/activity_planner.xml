@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="22dp"
+            android:src="@drawable/ic_left"
+            android:tint="#ccd6e0" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="Planner"
+                android:textColor="#Fefefe"
+                android:textFontWeight="1"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/colorTextLight"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="18dp"
+            android:src="@drawable/ic_delete"
+            android:tint="#ccd6e0" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="No Achievements added in Planner.."
+        android:textColor="#Fefefe"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/addPlannerMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:minHeight="0dp"
+        android:padding="4dp"
+        android:text="ADD"
+        android:background="@color/green"
+        android:textColor="@color/colorBGDark" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/planner_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:divider="#212121"
+        android:dividerHeight="1px"></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

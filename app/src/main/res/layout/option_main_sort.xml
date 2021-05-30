@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@drawable/color_background"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Sort Games"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/recent"
+            android:textColor="@drawable/click_selector"
+            android:text="Recent Search"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/playtime"
+            android:textColor="@drawable/click_selector"
+            android:text="Playtime"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <TextView
+            android:textColor="@drawable/click_selector"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:text="Name A - Z"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="View Type"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:text="Normal"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/view2"
+            android:text="Detail"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@drawable/click_selector"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

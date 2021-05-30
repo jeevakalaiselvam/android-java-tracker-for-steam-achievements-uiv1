@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "615045073083",
+    "firebase_url": "https://tracker-for-steam-achievements.firebaseio.com",
+    "project_id": "tracker-for-steam-achievements",
+    "storage_bucket": "tracker-for-steam-achievements.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615045073083:android:e0763e795eab3e5fb3419e",
+        "android_client_info": {
+          "package_name": "com.gamerguide.android.trackerforsteamachivements"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615045073083-qi1i96u87kitqd3n7mf806ccit07coml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gamerguide.android.trackerforsteamachivements",
+            "certificate_hash": "65121adbcb70ea5d1e109ed0a543199a8b329326"
+          }
+        },
+        {
+          "client_id": "615045073083-qn4s6ndatpsi7te119op0brhabckroiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gamerguide.android.trackerforsteamachivements",
+            "certificate_hash": "66661f18f9b90523104acfb6c1aef86875ab2977"
+          }
+        },
+        {
+          "client_id": "615045073083-f5k3imv8hbd67na4q7kj9tjjllf90h0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflDtscHX04R-UnLSExk-cnYdaoJ8M-2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615045073083-f5k3imv8hbd67na4q7kj9tjjllf90h0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
